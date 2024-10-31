@@ -1,2 +1,2 @@
-# bettercolors
-An alternative color module to colorama and pycolor
+# BetterColors
+### An alternative color module to `colorama` and `pycolor`
