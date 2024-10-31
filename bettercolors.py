@@ -86,7 +86,7 @@ def Back(color_code=None, text=None):
 
     if color_code == RAINBOW:
         if text is None:
-            return f'[{Fore(RAINBOW, text="BetterColors")}]: incorrect format for: "rainbow". Usage -> ''{Fore(RAINBOW, text="")}\n'
+            return f'[{Fore(RAINBOW, text="BetterColors")}]: incorrect format for: "rainbow". Usage -> ''{Back(RAINBOW, text="")}\n'
         else:
             return rainbow_text(text, 2)
 
